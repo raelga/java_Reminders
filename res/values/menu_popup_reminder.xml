@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_popup_reminder">
+        <item>Change done state</item>
+        <item>Edit Reminder</item>
+        <item>Delete Reminder</item>
+        <item>Back</item>
+    </string-array>
+
+</resources>

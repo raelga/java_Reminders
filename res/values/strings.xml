@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Reminders</string>
+    <string name="empty_icon"></string>
+    <string name="empty">Currently there are no items!</string>
+    <string name="menu_add">Add Reminder</string>
+    <string name="menu_delete">Delete Reminder</string>
+    <string name="reminder_name">Name</string>
+    <string name="reminder_name_hint">Name</string>
+    <string name="reminder_description">Description</string>
+    <string name="reminder_description_hint">Description</string>
+    <string name="reminder_edit_summary">Name</string>
+    <string name="reminder_edit_description">Description</string>
+    <string name="reminder_mark_done">Done</string>
+    <string name="reminder_save_button">Save</string>
+    <string name="reminder_button_startDate">Pick Start Date</string>
+    <string name="reminder_label_startDate">Start Date</string>
+    <string name="reminder_button_endDate">PickEnd Date</string>
+    <string name="reminder_label_endDate">End Date</string>
+    <string name="dialog_listSwitcher_title">Pick a list!</string>
+    <string name="preferences_mainList_id">mainListId</string>
+    <string name="preferences_mainList_setLast">startWithLastList</string>
+    <string name="preferences_info_defaultEndDate">defaultEndDate</string>
+    <string name="preferences_panel_setLast">Open with last used list</string>
+    <string name="preferences_panel_defaultEndDate">Set default time between default start and end</string>
+    <string name="preferences_panel_showPriority">Show priority on lists</string>
+    <string name="main_menu_add_reminder">New reminder</string>
+    <string name="main_menu_add_list">New list</string>
+    <string name="main_menu_sort">Sort list</string>
+    <string name="main_menu_popup_list">Edit List</string>
+    <string name="main_menu_switch">Switch List</string>
+    <string name="main_menu_preferences">Preferences</string>
+    <string name="reminder_menu_edit">Edit reminder</string>
+    <string name="reminder_menu_save">Save reminder</string>
+    <string name="reminder_menu_view">View reminder</string>
+    <string name="reminder_menu_delete">Delete reminder</string>
+    <string name="reminder_menu_list">Back to list</string>
+
+    <color name="list_color">#EFEFEF</color>
+    <color name="row_color">#000000</color>
+
+</resources>

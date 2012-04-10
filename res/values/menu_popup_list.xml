@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_popup_list">
+        <item>Set as Main List</item>
+        <item>Rename List</item>
+        <item>Clear List</item>
+        <item>Delete List</item>
+    </string-array>
+
+</resources>

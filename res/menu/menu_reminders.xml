@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/m_add"
+        android:icon="@drawable/ic_menu_add_reminder"
+        android:title="@string/main_menu_add_reminder"></item>
+
+    <item
+        android:id="@+id/m_add_list"
+        android:icon="@drawable/ic_menu_add_list"
+        android:title="@string/main_menu_add_list"></item>
+
+    <item
+        android:id="@+id/m_sort"
+        android:icon="@drawable/ic_menu_sort_by_size"
+        android:title="@string/main_menu_sort"></item>
+
+    <item
+        android:id="@+id/m_popup_list"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="@string/main_menu_popup_list"></item>
+
+    <item
+        android:id="@+id/m_switch_list"
+        android:icon="@drawable/ic_menu_switch"
+        android:title="@string/main_menu_switch"></item>
+
+    <item
+        android:id="@+id/m_preferences"
+        android:icon="@drawable/ic_menu_preferences"
+        android:title="@string/main_menu_preferences"></item>
+
+</menu>

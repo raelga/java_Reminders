@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="dialog_sortCriteria_title">Select row column</string>
+	<string name="dialog_sortOrder_title">Select sort oder</string>
+	    	
+	    
+    <string-array name="sort_criteria">
+        <item col="KEY_RNAME">Name</item>
+        <item col="KEY_RPRIORITY">Priority</item>
+        <item col="KEY_RADDEDDATE">Added date</item>
+        <item col="KEY_RSTARTDATE">Start date</item>
+        <item col="KEY_RENDDATE">End date</item>
+    </string-array>
+    
+   <string-array name="sort_order">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+        
+
+</resources>

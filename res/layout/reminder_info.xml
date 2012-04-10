@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_color"
+    android:gravity="fill|fill_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/remminder_info_top"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical" >
+
+        <Spinner
+            android:id="@+id/reminder_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.6" />
+
+        <Spinner
+            android:id="@+id/reminder_priority"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.4"
+            android:entries="@array/priorities" >
+            <!-- Preview: listitem=@android:layout/simple_spinner_item -->
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reminder_info_middle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/reminder_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/reminder_name_hint"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/reminder_description"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/reminder_description_hint" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/reminder_info_date"
+        android:layout_width="fill_parent"
+        android:layout_height="75px" >
+
+        <ImageButton
+            android:contentDescription="@string/reminder_button_startDate"
+            android:id="@+id/reminder_info_setStartDate"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_date" />
+
+        <TextView
+            android:id="@+id/reminder_info_viewStartDate"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.4"
+            android:gravity="center_vertical|left"
+            android:text="@string/reminder_label_startDate"
+            android:textColor="#000000" />
+
+        <ImageButton
+            android:contentDescription="@string/reminder_button_endDate"
+            android:id="@+id/reminder_info_setEndDate"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_date" />
+        
+        <TextView
+            android:id="@+id/reminder_info_viewEndDate"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.4"
+            android:gravity="center_vertical|left"
+            android:text="@string/reminder_label_endDate"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reminder_info_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/reminder_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="@string/reminder_mark_done"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/reminder_edit_button"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginRight="20px"
+            android:background="@drawable/lock" />
+        
+    </LinearLayout>
+
+</LinearLayout>

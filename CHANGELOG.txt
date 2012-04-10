@@ -1,0 +1,13 @@
+# En esta nueva versión se ha han corregido algunos errores:
+Bug del tachado al recargar la página.
+Bug last open.
+Bug can't remove default list.
+Bug bad month selector.
+
+# Mejoras de usabilidad
+
+	1. Hacer evidente que el calendario es un botón que lanza el DatePicker
+	2. Aviso sobre proceso peligroso con posible perdida masiva de datos.
+	3. Click simple lleva a una vista de solo lectura, con posibilidad de edición bajo demanda.
+	4. Mejoras de espaciado entre algunos elementos.
+

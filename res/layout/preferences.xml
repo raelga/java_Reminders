@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/list_color"
+    android:gravity="fill|fill_horizontal"
+    android:orientation="vertical" >
+
+        <TextView
+        android:id="@+id/list_name"
+        android:layout_width="fill_parent"
+        android:layout_height="50px"
+        android:layout_gravity="center_vertical"
+        android:background="#000000"
+        android:gravity="center_vertical|right"
+        android:paddingRight="5px"
+        android:text="Preferences"
+        android:textColor="#FEFEFE"
+        android:textSize="30px"
+        android:textStyle="bold" />
+        
+    <LinearLayout
+        android:id="@+id/preferences_middle_0"
+        android:layout_width="fill_parent"
+        android:layout_height="75px" >
+
+        <CheckBox
+            android:id="@+id/preferences_panel_setLast_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preferences_panel_setLast"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/preferences_middle_2"
+        android:layout_width="fill_parent"
+        android:layout_height="75px" >
+
+        <CheckBox
+            android:id="@+id/preferences_panel_showPriority_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10px"
+            android:text="@string/preferences_panel_showPriority"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/preferences_middle_1"
+        android:layout_width="fill_parent"
+        android:layout_height="100px" >
+
+        <Spinner
+            android:id="@+id/preferences_panel_defaultEndDate_sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center_vertical|left"
+            android:textColor="#000000" 
+            android:entries="@array/defaultLapseDays" />
+
+        <TextView
+            android:id="@+id/preferences_panel_defaultEndDateText"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="4px"
+            android:layout_weight="0.4"
+            android:gravity="center_vertical|left"
+            android:text="@string/preferences_panel_defaultEndDate"
+            android:textColor="#000000" />q
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reminder_info_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom" >
+
+        <Button
+            android:id="@+id/reminder_save_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.3"
+            android:text="@string/reminder_save_button" />
+    </LinearLayout>
+
+</LinearLayout>
